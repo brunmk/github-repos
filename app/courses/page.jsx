@@ -16,8 +16,6 @@ const AboutPage = () => {
     fetchCourses();
   }, []);
 
-  console.log(courses);
-
   if (loading) {
     return <p className="text-center">Loading...</p>;
   }

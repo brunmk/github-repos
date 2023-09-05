@@ -9,11 +9,6 @@ const open_sans = Open_Sans({
   weight: ["400", "700"],
 });
 
-export const metadata = {
-  title: "Project repositories",
-  description: "Project using the new NextJS 13 and Bootstrap 5",
-};
-
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
