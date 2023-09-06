@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="container">
       <h1 className="my-4 text-center">Courses</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        <Courses />
+        {/* <Courses /> */}
       </div>
     </div>
   );
